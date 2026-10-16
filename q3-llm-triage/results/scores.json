@@ -1,0 +1,290 @@
+{
+  "baseline": {
+    "accuracy": {
+      "category": "10/12 (83%)",
+      "urgency": "4/12 (33%)",
+      "team": "10/12 (83%)",
+      "escalation": "11/12 (92%)",
+      "sensitivity": "11/12 (92%)"
+    },
+    "per_message": [
+      {
+        "id": "M01",
+        "category": true,
+        "urgency": false,
+        "team": true,
+        "escalation": true,
+        "sensitivity": true,
+        "pred_category": "water_leak",
+        "pred_urgency": "LOW",
+        "n_issues": 1
+      },
+      {
+        "id": "M02",
+        "category": true,
+        "urgency": true,
+        "team": true,
+        "escalation": true,
+        "sensitivity": true,
+        "pred_category": "waste_recycling",
+        "pred_urgency": "MEDIUM",
+        "n_issues": 1
+      },
+      {
+        "id": "M03",
+        "category": true,
+        "urgency": false,
+        "team": true,
+        "escalation": true,
+        "sensitivity": true,
+        "pred_category": "energy_waste",
+        "pred_urgency": "LOW",
+        "n_issues": 1
+      },
+      {
+        "id": "M04",
+        "category": true,
+        "urgency": false,
+        "team": true,
+        "escalation": true,
+        "sensitivity": false,
+        "pred_category": "procurement_supplier",
+        "pred_urgency": "LOW",
+        "n_issues": 1
+      },
+      {
+        "id": "M05",
+        "category": true,
+        "urgency": true,
+        "team": true,
+        "escalation": true,
+        "sensitivity": true,
+        "pred_category": "accessibility",
+        "pred_urgency": "HIGH",
+        "n_issues": 1
+      },
+      {
+        "id": "M06",
+        "category": false,
+        "urgency": false,
+        "team": false,
+        "escalation": true,
+        "sensitivity": true,
+        "pred_category": "other",
+        "pred_urgency": "LOW",
+        "n_issues": 1
+      },
+      {
+        "id": "M07",
+        "category": true,
+        "urgency": false,
+        "team": true,
+        "escalation": true,
+        "sensitivity": true,
+        "pred_category": "hazardous_disposal",
+        "pred_urgency": "LOW",
+        "n_issues": 1
+      },
+      {
+        "id": "M08",
+        "category": true,
+        "urgency": true,
+        "team": true,
+        "escalation": false,
+        "sensitivity": true,
+        "pred_category": "other",
+        "pred_urgency": "LOW",
+        "n_issues": 1
+      },
+      {
+        "id": "M09",
+        "category": true,
+        "urgency": false,
+        "team": true,
+        "escalation": true,
+        "sensitivity": true,
+        "pred_category": "hazardous_disposal",
+        "pred_urgency": "MEDIUM",
+        "n_issues": 1
+      },
+      {
+        "id": "M10",
+        "category": false,
+        "urgency": false,
+        "team": false,
+        "escalation": true,
+        "sensitivity": true,
+        "pred_category": "energy_waste",
+        "pred_urgency": "MEDIUM",
+        "n_issues": 1,
+        "found_second_issue": true
+      },
+      {
+        "id": "M11",
+        "category": true,
+        "urgency": true,
+        "team": true,
+        "escalation": true,
+        "sensitivity": true,
+        "pred_category": "safety_emergency",
+        "pred_urgency": "CRITICAL",
+        "n_issues": 1
+      },
+      {
+        "id": "M12",
+        "category": true,
+        "urgency": false,
+        "team": true,
+        "escalation": true,
+        "sensitivity": true,
+        "pred_category": "other",
+        "pred_urgency": "MEDIUM",
+        "n_issues": 1
+      }
+    ]
+  },
+  "llm_v2": {
+    "accuracy": {
+      "category": "12/12 (100%)",
+      "urgency": "9/12 (75%)",
+      "team": "12/12 (100%)",
+      "escalation": "12/12 (100%)",
+      "sensitivity": "12/12 (100%)"
+    },
+    "per_message": [
+      {
+        "id": "M01",
+        "category": true,
+        "urgency": true,
+        "team": true,
+        "escalation": true,
+        "sensitivity": true,
+        "pred_category": "water_leak",
+        "pred_urgency": "HIGH",
+        "n_issues": 1
+      },
+      {
+        "id": "M02",
+        "category": true,
+        "urgency": true,
+        "team": true,
+        "escalation": true,
+        "sensitivity": true,
+        "pred_category": "waste_recycling",
+        "pred_urgency": "MEDIUM",
+        "n_issues": 1
+      },
+      {
+        "id": "M03",
+        "category": true,
+        "urgency": false,
+        "team": true,
+        "escalation": true,
+        "sensitivity": true,
+        "pred_category": "energy_waste",
+        "pred_urgency": "LOW",
+        "n_issues": 1
+      },
+      {
+        "id": "M04",
+        "category": true,
+        "urgency": false,
+        "team": true,
+        "escalation": true,
+        "sensitivity": true,
+        "pred_category": "procurement_supplier",
+        "pred_urgency": "LOW",
+        "n_issues": 1
+      },
+      {
+        "id": "M05",
+        "category": true,
+        "urgency": true,
+        "team": true,
+        "escalation": true,
+        "sensitivity": true,
+        "pred_category": "accessibility",
+        "pred_urgency": "HIGH",
+        "n_issues": 1
+      },
+      {
+        "id": "M06",
+        "category": true,
+        "urgency": true,
+        "team": true,
+        "escalation": true,
+        "sensitivity": true,
+        "pred_category": "safety_emergency",
+        "pred_urgency": "CRITICAL",
+        "n_issues": 1
+      },
+      {
+        "id": "M07",
+        "category": true,
+        "urgency": true,
+        "team": true,
+        "escalation": true,
+        "sensitivity": true,
+        "pred_category": "hazardous_disposal",
+        "pred_urgency": "HIGH",
+        "n_issues": 1
+      },
+      {
+        "id": "M08",
+        "category": true,
+        "urgency": true,
+        "team": true,
+        "escalation": true,
+        "sensitivity": true,
+        "pred_category": "other",
+        "pred_urgency": "LOW",
+        "n_issues": 1
+      },
+      {
+        "id": "M09",
+        "category": true,
+        "urgency": true,
+        "team": true,
+        "escalation": true,
+        "sensitivity": true,
+        "pred_category": "hazardous_disposal",
+        "pred_urgency": "HIGH",
+        "n_issues": 2
+      },
+      {
+        "id": "M10",
+        "category": true,
+        "urgency": true,
+        "team": true,
+        "escalation": true,
+        "sensitivity": true,
+        "pred_category": "accessibility",
+        "pred_urgency": "HIGH",
+        "n_issues": 2,
+        "found_second_issue": true
+      },
+      {
+        "id": "M11",
+        "category": true,
+        "urgency": true,
+        "team": true,
+        "escalation": true,
+        "sensitivity": true,
+        "pred_category": "safety_emergency",
+        "pred_urgency": "CRITICAL",
+        "n_issues": 1
+      },
+      {
+        "id": "M12",
+        "category": true,
+        "urgency": false,
+        "team": true,
+        "escalation": true,
+        "sensitivity": true,
+        "pred_category": "other",
+        "pred_urgency": "MEDIUM",
+        "n_issues": 1
+      }
+    ]
+  }
+}

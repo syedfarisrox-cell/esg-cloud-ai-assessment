@@ -1,0 +1,134 @@
+{
+  "M01": {
+    "issues": [
+      {
+        "issue_category": "water_leak",
+        "urgency": "LOW",
+        "recommended_team": "Facilities Maintenance",
+        "escalate_to_human": false,
+        "data_sensitivity_risk": "NONE"
+      }
+    ]
+  },
+  "M02": {
+    "issues": [
+      {
+        "issue_category": "waste_recycling",
+        "urgency": "MEDIUM",
+        "recommended_team": "Waste & Recycling",
+        "escalate_to_human": false,
+        "data_sensitivity_risk": "NONE"
+      }
+    ]
+  },
+  "M03": {
+    "issues": [
+      {
+        "issue_category": "energy_waste",
+        "urgency": "LOW",
+        "recommended_team": "Energy & Sustainability",
+        "escalate_to_human": false,
+        "data_sensitivity_risk": "NONE"
+      }
+    ]
+  },
+  "M04": {
+    "issues": [
+      {
+        "issue_category": "procurement_supplier",
+        "urgency": "LOW",
+        "recommended_team": "Procurement",
+        "escalate_to_human": false,
+        "data_sensitivity_risk": "NONE"
+      }
+    ]
+  },
+  "M05": {
+    "issues": [
+      {
+        "issue_category": "accessibility",
+        "urgency": "HIGH",
+        "recommended_team": "Accessibility & Inclusion",
+        "escalate_to_human": false,
+        "data_sensitivity_risk": "NONE"
+      }
+    ]
+  },
+  "M06": {
+    "issues": [
+      {
+        "issue_category": "other",
+        "urgency": "LOW",
+        "recommended_team": "Human Review Queue",
+        "escalate_to_human": true,
+        "data_sensitivity_risk": "NONE"
+      }
+    ]
+  },
+  "M07": {
+    "issues": [
+      {
+        "issue_category": "hazardous_disposal",
+        "urgency": "LOW",
+        "recommended_team": "Health, Safety & Environment",
+        "escalate_to_human": false,
+        "data_sensitivity_risk": "NONE"
+      }
+    ]
+  },
+  "M08": {
+    "issues": [
+      {
+        "issue_category": "other",
+        "urgency": "LOW",
+        "recommended_team": "Human Review Queue",
+        "escalate_to_human": true,
+        "data_sensitivity_risk": "NONE"
+      }
+    ]
+  },
+  "M09": {
+    "issues": [
+      {
+        "issue_category": "hazardous_disposal",
+        "urgency": "MEDIUM",
+        "recommended_team": "Health, Safety & Environment",
+        "escalate_to_human": true,
+        "data_sensitivity_risk": "HIGH"
+      }
+    ]
+  },
+  "M10": {
+    "issues": [
+      {
+        "issue_category": "energy_waste",
+        "urgency": "MEDIUM",
+        "recommended_team": "Energy & Sustainability",
+        "escalate_to_human": false,
+        "data_sensitivity_risk": "NONE"
+      }
+    ]
+  },
+  "M11": {
+    "issues": [
+      {
+        "issue_category": "safety_emergency",
+        "urgency": "CRITICAL",
+        "recommended_team": "Health, Safety & Environment",
+        "escalate_to_human": true,
+        "data_sensitivity_risk": "NONE"
+      }
+    ]
+  },
+  "M12": {
+    "issues": [
+      {
+        "issue_category": "other",
+        "urgency": "MEDIUM",
+        "recommended_team": "Human Review Queue",
+        "escalate_to_human": true,
+        "data_sensitivity_risk": "NONE"
+      }
+    ]
+  }
+}
